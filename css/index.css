@@ -61,7 +61,10 @@ header .menu .menu_btn{width: 30px; position: absolute; z-index: 102; right: 15p
   /* sec1 */
   .swiper{height: 100vh;}
   .s1 .swiper-slide {background-position: center; background-repeat: no-repeat; background-size: cover;}
-  .s1 .main1{background-image: url(../img/BNER1.png);}
+  .s1 .main1{background-image: url(../img/banner1.png);}
+  .s1 .main1 h1{color: white; text-align: center; margin-top: 20vh; margin-bottom: 7vh}
+  .s1 .main1 h2{margin-top:10px ; margin-left: 14vw; color: #fff;}
+  .s1 .main1 p{margin-top: 20vh; background-color:#f2f2f26c ; width: 120px; width: 240px; height: 70px; line-height: 4; text-align: center; border-radius:20px; margin-left: 60px;}
   .s1 .main2{background-image: url(../img/BNER2.png);}
   .s1 .main3{background-image: url(../img/BNER3.png);}
   .s1 .swiper-pagination-bullet{width: 30px; height: 6px; background-color: rgb(139, 132, 132); border-radius: 0; margin: 0 7px !important; border: 1px solid rgba(255, 255, 255, 1.0);}
@@ -134,6 +137,7 @@ header .menu .menu_btn{width: 30px; position: absolute; z-index: 102; right: 15p
 
 /*footer */
 .fp-auto-height{background-color: #444;}
-.fp-auto-height ul li{float: left; margin: 10px; color: white; }
+.fp-auto-height ul{padding: 10px;}
+.fp-auto-height ul li{float: left; color: white; white-space:inherit; padding: 5px; font-size: 13px;}
 .fp-auto-height h2 {color: white; margin-top: 40px; display: block; text-align: center; margin-bottom: 30px;}
 .fp-auto-height p{color: white; margin-top: 5px;}
